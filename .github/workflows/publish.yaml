@@ -1,0 +1,31 @@
+name: Publish to Github Pages
+
+on:
+  push:
+    branches: [master]
+  pull_request: # TODO: Remove once tested on Github
+    branches: [ master ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build Implementation Guide
+        run: |
+          docker run \
+          -v $(pwd):/home/publisher/ig \
+          hl7fhir/ig-publisher-base \
+            sh -c "./_updatePublisher.sh -y && ./_genonce.sh"
+      
+      - name: Deploy to Github Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: output
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
