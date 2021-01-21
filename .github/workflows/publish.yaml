@@ -9,16 +9,16 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+
+    container:
+      image: hl7fhir/ig-publisher-base
   
     steps:
       - uses: actions/checkout@v2
 
       - name: Build Implementation Guide
         run: |
-          docker run \
-          -v $(pwd):/home/publisher/ig \
-          hl7fhir/ig-publisher-base \
-            sh -c "./_updatePublisher.sh -y && ./_genonce.sh"
+          ./_updatePublisher.sh -y && ./_genonce.sh
       
       - name: Deploy to Github Pages
         if: success()
