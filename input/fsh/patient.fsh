@@ -35,7 +35,6 @@ Title: "Commcare Vaccine Patient"
 Description: "Defines a patient profile for the CommCare Vaccine"
 * identifier 1..1 MS
 * name 1..1 MS
-* name.text 1..1
 * name.family 1..1 MS
 * name.given 1..* MS
 * telecom 1..* MS
