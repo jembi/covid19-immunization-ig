@@ -1,0 +1,12 @@
+{
+  "url": "http://example.org/ImplementationGuide/fhir.example",
+  "name": "commcarevaccineig",
+  "package-id": "fhir.example",
+  "ig-ver": "0.1.0",
+  "date": "Fri, 22 Jan, 2021 06:50:30 +0000",
+  "errs": 0,
+  "warnings": 7,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "4.5.0 (3)"
+}

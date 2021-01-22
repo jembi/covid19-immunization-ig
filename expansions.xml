@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="d36f2bbb-5b8b-4137-a2aa-1b8b76097a3a"/>
+  <meta>
+    <lastUpdated value="2021-01-22T06:50:30.506+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/area-type-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="area-type-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-AreaType.html">Patient Area Type v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-AreaType.html">
+                <code>http://example.org/CodeSystem/AreaType</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-AreaType-rural"> </a>
+                  <a href="CodeSystem-AreaType.html#AreaType-rural">rural</a>
+                </td>
+                <td>Rural</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---example.org-CodeSystem-AreaType-urban"> </a>
+                  <a href="CodeSystem-AreaType.html#AreaType-urban">urban</a>
+                </td>
+                <td>Urban</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/area-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="AreaType"/>
+        <title value="Area Type"/>
+        <status value="active"/>
+        <date value="2021-01-22T06:50:30+00:00"/>
+        <description value="A ValueSet for the values `rural` and `urban`"/>
+        <expansion>
+          <identifier value="urn:uuid:1bc8df8c-28cf-4069-877e-e1ea783b1185"/>
+          <timestamp value="2021-01-22T06:50:40+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://example.org/CodeSystem/AreaType|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/CodeSystem/AreaType"/>
+            <code value="rural"/>
+            <display value="Rural"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/AreaType"/>
+            <code value="urban"/>
+            <display value="Urban"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
