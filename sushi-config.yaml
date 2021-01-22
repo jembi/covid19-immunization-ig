@@ -2,8 +2,8 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.example
-canonical: http://example.org
+id: commcare.vaccine
+canonical: https://jembi.github.io/commcare-vaccine-ig/
 name: commcare-vaccine-ig
 status: draft
 version: 0.1.0
