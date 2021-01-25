@@ -2,63 +2,63 @@
   {
     "id": "AreaType",
     "type": "CodeSystem",
-    "url": "http://example.org/CodeSystem/AreaType",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType",
     "version": "0.1.0",
     "name": "AreaType"
   },
   {
-    "id": "fhir.example",
+    "id": "commcare.vaccine",
     "type": "ImplementationGuide",
-    "url": "http://example.org/ImplementationGuide/fhir.example",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//ImplementationGuide/commcare.vaccine",
     "version": "0.1.0",
     "name": "commcarevaccineig"
   },
   {
     "id": "area-type",
     "type": "StructureDefinition",
-    "url": "http://example.org/StructureDefinition/area-type",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type",
     "version": "0.1.0",
     "name": "PatientAreaType"
   },
   {
     "id": "commcare-client-data",
     "type": "StructureDefinition",
-    "url": "http://example.org/StructureDefinition/commcare-client-data",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-client-data",
     "version": "0.1.0",
     "name": "CommcareVaccinePatient"
   },
   {
     "id": "commcare-vaccine-immunization",
     "type": "StructureDefinition",
-    "url": "http://example.org/StructureDefinition/commcare-vaccine-immunization",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-vaccine-immunization",
     "version": "0.1.0",
     "name": "CommcareVaccineImmunization"
   },
   {
     "id": "dose-given",
     "type": "StructureDefinition",
-    "url": "http://example.org/StructureDefinition/dose-given",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given",
     "version": "0.1.0",
     "name": "DoseGiven"
   },
   {
     "id": "eligible-for-vaccine",
     "type": "StructureDefinition",
-    "url": "http://example.org/StructureDefinition/eligible-for-vaccine",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine",
     "version": "0.1.0",
     "name": "VaccineEligibility"
   },
   {
     "id": "last-dose",
     "type": "StructureDefinition",
-    "url": "http://example.org/StructureDefinition/last-dose",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose",
     "version": "0.1.0",
     "name": "LastDose"
   },
   {
     "id": "area-type-vs",
     "type": "ValueSet",
-    "url": "http://example.org/ValueSet/area-type-vs",
+    "url": "https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs",
     "version": "0.1.0",
     "name": "AreaType"
   }

@@ -1,29 +1,29 @@
 {
   "resourceType" : "Bundle",
-  "id" : "d36f2bbb-5b8b-4137-a2aa-1b8b76097a3a",
+  "id" : "f5fafa97-cf6e-42f8-9b73-7df82d73a105",
   "meta" : {
-    "lastUpdated" : "2021-01-22T06:50:30.506+00:00"
+    "lastUpdated" : "2021-01-25T08:16:03.590+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://example.org/ValueSet/area-type-vs",
+    "fullUrl" : "https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "area-type-vs",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-AreaType.html\">Patient Area Type v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-AreaType.html\"><code>http://example.org/CodeSystem/AreaType</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-AreaType-rural\"> </a><a href=\"CodeSystem-AreaType.html#AreaType-rural\">rural</a></td><td>Rural</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-CodeSystem-AreaType-urban\"> </a><a href=\"CodeSystem-AreaType.html#AreaType-urban\">urban</a></td><td>Urban</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-AreaType.html\">Patient Area Type v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-AreaType.html\"><code>https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---jembi.github.io-commcare-vaccine-ig--CodeSystem-AreaType-rural\"> </a><a href=\"CodeSystem-AreaType.html#AreaType-rural\">rural</a></td><td>Rural</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---jembi.github.io-commcare-vaccine-ig--CodeSystem-AreaType-urban\"> </a><a href=\"CodeSystem-AreaType.html#AreaType-urban\">urban</a></td><td>Urban</td><td/></tr></table></div>"
       },
-      "url" : "http://example.org/ValueSet/area-type-vs",
+      "url" : "https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs",
       "version" : "0.1.0",
       "name" : "AreaType",
       "title" : "Area Type",
       "status" : "active",
-      "date" : "2021-01-22T06:50:30+00:00",
+      "date" : "2021-01-25T08:16:03+00:00",
       "description" : "A ValueSet for the values `rural` and `urban`",
       "expansion" : {
-        "identifier" : "urn:uuid:1bc8df8c-28cf-4069-877e-e1ea783b1185",
-        "timestamp" : "2021-01-22T06:50:40+00:00",
+        "identifier" : "urn:uuid:b75035df-bab2-46f1-a525-ee6e904c2317",
+        "timestamp" : "2021-01-25T08:16:16+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -31,15 +31,15 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://example.org/CodeSystem/AreaType|0.1.0"
+          "valueUri" : "https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType|0.1.0"
         }],
         "contains" : [{
-          "system" : "http://example.org/CodeSystem/AreaType",
+          "system" : "https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType",
           "code" : "rural",
           "display" : "Rural"
         },
         {
-          "system" : "http://example.org/CodeSystem/AreaType",
+          "system" : "https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType",
           "code" : "urban",
           "display" : "Urban"
         }]

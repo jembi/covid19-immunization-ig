@@ -5,30 +5,30 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/ValueSet/area-type-vs> a fhir:ValueSet;
+<https://jembi.github.io/commcare-vaccine-ig/ValueSet/area-type-vs> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "area-type-vs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-AreaType.html\"><code>http://example.org/CodeSystem/AreaType</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-AreaType.html\"><code>https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://example.org/ValueSet/area-type-vs"];
+  fhir:ValueSet.url [ fhir:value "https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "AreaType"];
   fhir:ValueSet.title [ fhir:value "Area Type"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-01-22T06:50:30+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-01-25T08:16:03+00:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "A ValueSet for the values `rural` and `urban`"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://example.org/CodeSystem/AreaType" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.org/ValueSet/area-type-vs.ttl> a owl:Ontology;
+<https://jembi.github.io/commcare-vaccine-ig/ValueSet/area-type-vs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

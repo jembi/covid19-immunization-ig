@@ -3,18 +3,18 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="area-type-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-AreaType.html"><code>http://example.org/CodeSystem/AreaType</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-AreaType.html"><code>https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType</code></a></li></ul></div>
   </text>
-  <url value="http://example.org/ValueSet/area-type-vs"/>
+  <url value="https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs"/>
   <version value="0.1.0"/>
   <name value="AreaType"/>
   <title value="Area Type"/>
   <status value="active"/>
-  <date value="2021-01-22T06:50:30+00:00"/>
+  <date value="2021-01-25T08:16:03+00:00"/>
   <description value="A ValueSet for the values `rural` and `urban`"/>
   <compose>
     <include>
-      <system value="http://example.org/CodeSystem/AreaType"/>
+      <system value="https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType"/>
     </include>
   </compose>
 </ValueSet>

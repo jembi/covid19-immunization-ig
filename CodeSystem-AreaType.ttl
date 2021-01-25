@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/CodeSystem/AreaType> a fhir:CodeSystem;
+<https://jembi.github.io/commcare-vaccine-ig/CodeSystem/AreaType> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "AreaType"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/CodeSystem/AreaType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">rural<a name=\"AreaType-rural\"> </a></td><td>Rural</td></tr><tr><td style=\"white-space:nowrap\">urban<a name=\"AreaType-urban\"> </a></td><td>Urban</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">rural<a name=\"AreaType-rural\"> </a></td><td>Rural</td></tr><tr><td style=\"white-space:nowrap\">urban<a name=\"AreaType-urban\"> </a></td><td>Urban</td></tr></table></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://example.org/CodeSystem/AreaType"];
+  fhir:CodeSystem.url [ fhir:value "https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "AreaType"];
   fhir:CodeSystem.title [ fhir:value "Patient Area Type"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-01-22T06:50:30+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-01-25T08:16:03+00:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "A custom code system for Patient residential area type"];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
@@ -33,7 +33,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.org/CodeSystem/AreaType.ttl> a owl:Ontology;
+<https://jembi.github.io/commcare-vaccine-ig/CodeSystem/AreaType.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

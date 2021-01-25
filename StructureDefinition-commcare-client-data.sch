@@ -12,10 +12,10 @@
   <sch:pattern>
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/eligible-for-vaccine']) &gt;= 1">extension with URL = 'http://example.org/StructureDefinition/eligible-for-vaccine': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/eligible-for-vaccine']) &lt;= 1">extension with URL = 'http://example.org/StructureDefinition/eligible-for-vaccine': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/area-type']) &gt;= 1">extension with URL = 'http://example.org/StructureDefinition/area-type': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/area-type']) &lt;= 1">extension with URL = 'http://example.org/StructureDefinition/area-type': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine']) &gt;= 1">extension with URL = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine']) &lt;= 1">extension with URL = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type']) &gt;= 1">extension with URL = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type']) &lt;= 1">extension with URL = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &lt;= 1">identifier: maximum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>

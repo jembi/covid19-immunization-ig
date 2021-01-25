@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
   "fhirVersion": "[4.0.1]",
-  "date": "20210122065006",
-  "name": "fhir.example"
+  "date": "20210125081521",
+  "name": "commcare.vaccine"
 }

@@ -12,10 +12,10 @@
   <sch:pattern>
     <sch:title>f:Immunization</sch:title>
     <sch:rule context="f:Immunization">
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/last-dose']) &gt;= 1">extension with URL = 'http://example.org/StructureDefinition/last-dose': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/last-dose']) &lt;= 1">extension with URL = 'http://example.org/StructureDefinition/last-dose': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/dose-given']) &gt;= 1">extension with URL = 'http://example.org/StructureDefinition/dose-given': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/dose-given']) &lt;= 1">extension with URL = 'http://example.org/StructureDefinition/dose-given': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose']) &gt;= 1">extension with URL = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose']) &lt;= 1">extension with URL = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given']) &gt;= 1">extension with URL = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given']) &lt;= 1">extension with URL = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

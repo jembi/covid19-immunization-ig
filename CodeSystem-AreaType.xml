@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="AreaType"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/CodeSystem/AreaType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">rural<a name="AreaType-rural"> </a></td><td>Rural</td></tr><tr><td style="white-space:nowrap">urban<a name="AreaType-urban"> </a></td><td>Urban</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">rural<a name="AreaType-rural"> </a></td><td>Rural</td></tr><tr><td style="white-space:nowrap">urban<a name="AreaType-urban"> </a></td><td>Urban</td></tr></table></div>
   </text>
-  <url value="http://example.org/CodeSystem/AreaType"/>
+  <url value="https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType"/>
   <version value="0.1.0"/>
   <name value="AreaType"/>
   <title value="Patient Area Type"/>
   <status value="active"/>
-  <date value="2021-01-22T06:50:30+00:00"/>
+  <date value="2021-01-25T08:16:03+00:00"/>
   <description value="A custom code system for Patient residential area type"/>
   <content value="complete"/>
   <count value="2"/>

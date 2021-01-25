@@ -1,10 +1,10 @@
 {
-  "package": "fhir.example",
+  "package": "commcare.vaccine",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://example.org/StructureDefinition/area-type",
+      "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type",
       "title": "Patient Area Type",
       "types": [
         "CodeableConcept",
@@ -12,21 +12,21 @@
       ]
     },
     {
-      "url": "http://example.org/StructureDefinition/dose-given",
+      "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given",
       "title": "Dose Given",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://example.org/StructureDefinition/eligible-for-vaccine",
+      "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine",
       "title": "Eligible For Vaccine",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://example.org/StructureDefinition/last-dose",
+      "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose",
       "title": "Last Dose",
       "types": [
         "boolean"
@@ -36,30 +36,18 @@
   "profiles": {
     "Patient": [
       {
-        "url": "http://example.org/StructureDefinition/commcare-client-data",
+        "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-client-data",
         "title": "Commcare Vaccine Patient"
       }
     ],
     "Immunization": [
       {
-        "url": "http://example.org/StructureDefinition/commcare-vaccine-immunization",
+        "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-vaccine-immunization",
         "title": "Commcare Vaccine Immunization"
       }
     ]
   },
   "usage": {
-    "http://example.org/StructureDefinition/area-type": [
-      "Patient"
-    ],
-    "http://example.org/StructureDefinition/dose-given": [
-      "Immunization"
-    ],
-    "http://example.org/StructureDefinition/eligible-for-vaccine": [
-      "Patient"
-    ],
-    "http://example.org/StructureDefinition/last-dose": [
-      "Immunization"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -95,6 +83,18 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type": [
+      "Patient"
+    ],
+    "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given": [
+      "Immunization"
+    ],
+    "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine": [
+      "Patient"
+    ],
+    "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose": [
+      "Immunization"
     ]
   }
 }
