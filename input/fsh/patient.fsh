@@ -28,11 +28,11 @@ Description: "Indicates whether a patient is eligible for vaccine or not"
 * value[x] only boolean
 * value[x] 1..1
 
-Profile: CommcareVaccinePatient
+Profile: Covid19Patient
 Parent: Patient
-Id: commcare-client-data
-Title: "Commcare Vaccine Patient"
-Description: "Defines a patient profile for the CommCare Vaccine"
+Id: covid19-patient
+Title: "COVID-19 Immunization Patient"
+Description: "Defines a patient profile for the COVID-19 Immunization"
 * identifier 1..1 MS
 * name 1..1 MS
 * name.family 1..1 MS

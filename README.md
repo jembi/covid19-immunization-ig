@@ -1,4 +1,4 @@
-![Publish to Github Pages](https://github.com/jembi/commcare-vaccine-ig/workflows/Publish%20to%20Github%20Pages/badge.svg)
+![Publish to Github Pages](https://github.com/jembi/covid19-immunization-ig/workflows/Publish%20to%20Github%20Pages/badge.svg)
 
 # COVID-19 Immunization IG
 

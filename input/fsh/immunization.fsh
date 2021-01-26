@@ -16,11 +16,11 @@ Description: "Defines if the a dose has been given"
 * value[x] only boolean
 * value[x] 1..1
 
-Profile: CommcareVaccineImmunization
+Profile: Covid19Immunization
 Parent: Immunization
-Id: commcare-vaccine-immunization
-Title: "Commcare Vaccine Immunization"
-Description: "Defines an immunization profile for the CommCare vaccine"
+Id: covid19-immunization
+Title: "Covid19 Immunization"
+Description: "Defines an immunization profile for the COVID-19"
 * vaccineCode 1..1 MS
 * protocolApplied.doseNumberPositiveInt 1..1 MS
 * occurrenceDateTime 1..1 MS
