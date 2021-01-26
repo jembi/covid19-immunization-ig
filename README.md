@@ -1,12 +1,11 @@
-![Publish to Github Pages](https://github.com/jembi/covid19-immunization-ig/workflows/Publish%20to%20Github%20Pages/badge.svg)
-
 # COVID-19 Immunization IG
+
+![Publish to Github Pages](https://github.com/jembi/covid19-immunization-ig/workflows/Publish%20to%20Github%20Pages/badge.svg)
 
 ## Requirements
 
 - [Sushi](http://sushi.org)
 - [Jekyll](https://jekyllrb.com/)
-
 
 ## Running locally
 
@@ -17,4 +16,4 @@ To run the implementation guide on your machine please run the following command
 
 **NOTE:** Running `sushi` with no arguments will output useful summary information about the project, including the following table:
 
-![](sushi_output.png)
+![Sushi output](sushi_output.png)
