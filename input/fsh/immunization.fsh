@@ -1,3 +1,5 @@
+Alias: SCT = http://snomed.info/sct
+
 Extension: LastDose
 Id: last-dose
 Title: "Last Dose"
@@ -26,3 +28,17 @@ Description: "Defines an immunization profile for the COVID-19"
 * occurrenceDateTime 1..1 MS
 * extension contains LastDose named lastDose 1..1
 * extension contains DoseGiven named doseGiven 1..1
+
+Instance: Covid19ImmunizationExample
+InstanceOf: Covid19Immunization
+Title: "COVID-19 Immunization example"
+Description: "COVID-19 Immunization example"
+* vaccineCode.coding[0].system = SCT
+* vaccineCode.coding[0].code = #840534001
+* vaccineCode.coding[0].display = "COVID-19 vaccination"
+* protocolApplied.doseNumberPositiveInt = 100
+* occurrenceDateTime = "2021-01-26T10:26:54.421Z"
+* extension[lastDose].valueBoolean = false
+* extension[doseGiven].valueBoolean = true
+* status = #completed
+* patient = Reference(Covid19Patient/example)

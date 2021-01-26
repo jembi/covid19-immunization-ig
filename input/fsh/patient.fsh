@@ -42,3 +42,20 @@ Description: "Defines a patient profile for the COVID-19 Immunization"
 * gender 1..1 MS
 * extension contains VaccineEligibility named eligibleForVaccine 1..1
 * extension contains PatientAreaType named areaType 1..1
+
+Instance: Covid19PatientExample
+InstanceOf: Covid19Patient
+Usage: #example
+Title: "COVID-19 Patient"
+Description: "COVID-19 Patient example"
+* identifier.system = "https://jembi.github.io/covid19-immunization-ig/patient-id"
+* identifier.value = "12345"
+* name.family = "Doe"
+* name.given = "John"
+* telecom[0].system = #phone
+* telecom[0].value = "(+27) 00 123 4567"
+* telecom[0].use = #work
+* gender = #male
+* birthDate = "1981-05-21"
+* extension[areaType].valueCodeableConcept = #urban
+* extension[eligibleForVaccine].valueBoolean = true
