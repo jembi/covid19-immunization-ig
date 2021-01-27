@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://jembi.github.io/covid19-immunization-ig/Patient/Covid19PatientExample> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Covid19PatientExample"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-patient";
+       fhir:index 0;
+       fhir:link <https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-patient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Eligible For Vaccine</b>: true</p><p><b>Patient Area Type</b>: <span title=\"Codes: \">urban</span></p><p><b>identifier</b>: id: 12345</p><p><b>name</b>: John Doe </p><p><b>telecom</b>: ph: (+27) 00 123 4567(WORK)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1981-05-21</p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/eligible-for-vaccine" ];
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/area-type" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "urban" ]
+       ]
+     ]
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://jembi.github.io/covid19-immunization-ig/patient-id" ];
+     fhir:Identifier.value [ fhir:value "12345" ]
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Doe" ];
+     fhir:HumanName.given [
+       fhir:value "John";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "(+27) 00 123 4567" ];
+     fhir:ContactPoint.use [ fhir:value "work" ]
+  ];
+  fhir:Patient.gender [ fhir:value "male"];
+  fhir:Patient.birthDate [ fhir:value "1981-05-21"^^xsd:date] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://jembi.github.io/covid19-immunization-ig/Patient/Covid19PatientExample.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

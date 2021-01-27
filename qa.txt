@@ -1,102 +1,118 @@
-﻿commcarevaccineig : Validation Results
+﻿covid19immunizationig : Validation Results
 =========================================
 
-err = 1, warn = 7, info = 0
+err = 5, warn = 2, info = 0
 IG Publisher Version: 1.1.59
-Generated Mon Jan 25 08:16:22 UTC 2021. FHIR version 4.0.1 for commcare.vaccine#0.1.0 (canonical = https://jembi.github.io/commcare-vaccine-ig/)
+Generated Wed Jan 27 09:56:36 UTC 2021. FHIR version 4.0.1 for covid19.immunization#0.1.0 (canonical = https://jembi.github.io/covid19-immunization-ig/)
 
- Build Errors : 57 / 0 / 0
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/CodeSystem-AreaType : 0 / 0 / 1
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/ImplementationGuide-commcare.vaccine : 1 / 1 / 1
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-area-type : 0 / 1 / 1
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-commcare-client-data : 0 / 1 / 1
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-commcare-vaccine-immunization : 0 / 1 / 1
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-dose-given : 0 / 1 / 1
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-eligible-for-vaccine : 0 / 1 / 1
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-last-dose : 0 / 1 / 1
- /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/ValueSet-area-type-vs : 0 / 0 / 1
+ Build Errors : 68 / 0 / 0
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/CodeSystem-AreaType : 0 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/Immunization-Covid19ImmunizationExample : 3 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/ImplementationGuide-covid19.immunization : 1 / 1 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/Patient-Covid19PatientExample : 1 / 1 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-area-type : 0 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-covid19-immunization : 0 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-covid19-patient : 0 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-dose-given : 0 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-eligible-for-vaccine : 0 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-last-dose : 0 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/ValueSet-area-type-vs : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/CodeSystem-AreaType.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/CodeSystem-AreaType.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/CodeSystem-AreaType.json.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/CodeSystem-AreaType.ttl.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/CodeSystem-AreaType.xml.html#/html/body/div/div/div/p/a at Line 209, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-area-type-definitions.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-area-type-mappings.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-area-type.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-area-type.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-area-type.profile.json.html#/html/body/div/div/div/p/a at Line 562, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-area-type.profile.ttl.html#/html/body/div/div/div/p/a at Line 529, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-area-type.profile.xml.html#/html/body/div/div/div/p/a at Line 517, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-client-data-definitions.html#/html/body/div/div/div/p/a at Line 820, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-client-data-examples.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-client-data-mappings.html#/html/body/div/div/div/p/a at Line 358, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-client-data.html#/html/body/div/div/div/p/a at Line 860, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-client-data.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-client-data.profile.json.html#/html/body/div/div/div/p/a at Line 3086, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-client-data.profile.ttl.html#/html/body/div/div/div/p/a at Line 2700, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-client-data.profile.xml.html#/html/body/div/div/div/p/a at Line 2803, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-vaccine-immunization-definitions.html#/html/body/div/div/div/p/a at Line 828, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-vaccine-immunization-examples.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-vaccine-immunization-mappings.html#/html/body/div/div/div/p/a at Line 371, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-vaccine-immunization.html#/html/body/div/div/div/p/a at Line 898, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-vaccine-immunization.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-vaccine-immunization.profile.json.html#/html/body/div/div/div/p/a at Line 3470, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-vaccine-immunization.profile.ttl.html#/html/body/div/div/div/p/a at Line 3027, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-commcare-vaccine-immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 3063, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-dose-given-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-dose-given-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-dose-given.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-dose-given.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-dose-given.profile.json.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-dose-given.profile.ttl.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-dose-given.profile.xml.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-eligible-for-vaccine-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-eligible-for-vaccine-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-eligible-for-vaccine.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-eligible-for-vaccine.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-eligible-for-vaccine.profile.json.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-eligible-for-vaccine.profile.ttl.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-eligible-for-vaccine.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-last-dose-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-last-dose-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-last-dose.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-last-dose.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-last-dose.profile.json.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-last-dose.profile.ttl.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/StructureDefinition-last-dose.profile.xml.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/ValueSet-area-type-vs.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/ValueSet-area-type-vs.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/ValueSet-area-type-vs.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/ValueSet-area-type-vs.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/ValueSet-area-type-vs.xml.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/artifacts.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/index.html#/html/body/div/div/div/p/a at Line 151, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/commcare-vaccine-ig/commcare-vaccine-ig/output/toc.html#/html/body/div/div/div/p/a at Line 133, column 28: The link '' for "" cannot be resolved
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/CodeSystem-AreaType.json ==
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/CodeSystem-AreaType.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/CodeSystem-AreaType.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/CodeSystem-AreaType.json.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/CodeSystem-AreaType.ttl.html#/html/body/div/div/div/p/a at Line 224, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/CodeSystem-AreaType.xml.html#/html/body/div/div/div/p/a at Line 210, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Immunization-Covid19ImmunizationExample.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Immunization-Covid19ImmunizationExample.html#/html/body/div/div/div/div/div/div/p/a at Line 155, column 299: The link 'Covid19Patient/example' for "Covid19Patient/example" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Immunization-Covid19ImmunizationExample.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Immunization-Covid19ImmunizationExample.json.html#/html/body/div/div/div/p/a at Line 226, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Immunization-Covid19ImmunizationExample.ttl.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Immunization-Covid19ImmunizationExample.xml.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid19PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid19PatientExample.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid19PatientExample.json.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid19PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid19PatientExample.xml.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type-definitions.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type-mappings.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type.profile.json.html#/html/body/div/div/div/p/a at Line 562, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type.profile.ttl.html#/html/body/div/div/div/p/a at Line 529, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type.profile.xml.html#/html/body/div/div/div/p/a at Line 517, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-immunization-definitions.html#/html/body/div/div/div/p/a at Line 838, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-immunization-examples.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-immunization-mappings.html#/html/body/div/div/div/p/a at Line 381, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-immunization.html#/html/body/div/div/div/p/a at Line 908, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-immunization.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-immunization.profile.json.html#/html/body/div/div/div/p/a at Line 3480, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-immunization.profile.ttl.html#/html/body/div/div/div/p/a at Line 3037, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 3073, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-patient-definitions.html#/html/body/div/div/div/p/a at Line 830, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-patient-examples.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-patient-mappings.html#/html/body/div/div/div/p/a at Line 368, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-patient.html#/html/body/div/div/div/p/a at Line 870, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-patient.profile.history.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-patient.profile.json.html#/html/body/div/div/div/p/a at Line 3096, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2710, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-covid19-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 2813, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-dose-given-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-dose-given-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-dose-given.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-dose-given.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-dose-given.profile.json.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-dose-given.profile.ttl.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-dose-given.profile.xml.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-eligible-for-vaccine-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-eligible-for-vaccine-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-eligible-for-vaccine.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-eligible-for-vaccine.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-eligible-for-vaccine.profile.json.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-eligible-for-vaccine.profile.ttl.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-eligible-for-vaccine.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-last-dose-definitions.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-last-dose-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-last-dose.html#/html/body/div/div/div/p/a at Line 460, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-last-dose.profile.history.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-last-dose.profile.json.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-last-dose.profile.ttl.html#/html/body/div/div/div/p/a at Line 470, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-last-dose.profile.xml.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area-type-vs.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area-type-vs.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area-type-vs.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area-type-vs.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area-type-vs.xml.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/artifacts.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/index.html#/html/body/div/div/div/p/a at Line 151, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/toc.html#/html/body/div/div/div/p/a at Line 133, column 28: The link '' for "" cannot be resolved
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/CodeSystem-AreaType.json ==
 INFORMATION: CodeSystem/AreaType: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/ImplementationGuide-commcare.vaccine.json ==
-ERROR: ImplementationGuide.where(url = 'https://jembi.github.io/commcare-vaccine-ig//ImplementationGuide/commcare.vaccine'): Conformance resource /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/ImplementationGuide-commcare.vaccine.json - the canonical URL (https://jembi.github.io/commcare-vaccine-ig/ImplementationGuide/commcare.vaccine) does not match the URL (https://jembi.github.io/commcare-vaccine-ig//ImplementationGuide/commcare.vaccine)
-INFORMATION: ImplementationGuide/commcare.vaccine: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-WARNING: ImplementationGuide/commcare.vaccine: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-area-type.json ==
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/Immunization-Covid19ImmunizationExample.json ==
+INFORMATION: Immunization/Covid19ImmunizationExample: Immunization: Validate resource against profile https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-immunization
+ERROR: Immunization/Covid19ImmunizationExample: Immunization: The extension https://jembi.github.io/covid19-immunization-ig//StructureDefinition/last-dose is not allowed to be used at this point (allowed = e:CommcareVaccineImmunization; this element is [[Immunization])
+ERROR: Immunization/Covid19ImmunizationExample: Immunization: The extension https://jembi.github.io/covid19-immunization-ig//StructureDefinition/dose-given is not allowed to be used at this point (allowed = e:CommcareVaccineImmunization; this element is [[Immunization])
+ERROR: Immunization/Covid19ImmunizationExample: Immunization.patient: Unable to resolve resource 'Covid19Patient/example'
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/ImplementationGuide-covid19.immunization.json ==
+ERROR: ImplementationGuide.where(url = 'https://jembi.github.io/covid19-immunization-ig//ImplementationGuide/covid19.immunization'): Conformance resource /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/ImplementationGuide-covid19.immunization.json - the canonical URL (https://jembi.github.io/covid19-immunization-ig/ImplementationGuide/covid19.immunization) does not match the URL (https://jembi.github.io/covid19-immunization-ig//ImplementationGuide/covid19.immunization)
+INFORMATION: ImplementationGuide/covid19.immunization: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+WARNING: ImplementationGuide/covid19.immunization: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/Patient-Covid19PatientExample.json ==
+INFORMATION: Patient/Covid19PatientExample: Patient: Validate resource against profile https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-patient
+ERROR: Patient/Covid19PatientExample: Patient.extension[1].value.ofType(CodeableConcept): None of the codes provided are in the value set https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs (https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs), and a code from this value set is required) (codes = null#urban)
+WARNING: Patient/Covid19PatientExample: Patient.extension[1].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-area-type.json ==
 INFORMATION: StructureDefinition/area-type: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type'): The Implementation Guide contains no examples for this extension
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-commcare-client-data.json ==
-INFORMATION: StructureDefinition/commcare-client-data: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-client-data'): The Implementation Guide contains no examples for this profile
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-commcare-vaccine-immunization.json ==
-INFORMATION: StructureDefinition/commcare-vaccine-immunization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-vaccine-immunization'): The Implementation Guide contains no examples for this profile
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-dose-given.json ==
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-covid19-immunization.json ==
+INFORMATION: StructureDefinition/covid19-immunization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-covid19-patient.json ==
+INFORMATION: StructureDefinition/covid19-patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-dose-given.json ==
 INFORMATION: StructureDefinition/dose-given: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given'): The Implementation Guide contains no examples for this extension
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-eligible-for-vaccine.json ==
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-eligible-for-vaccine.json ==
 INFORMATION: StructureDefinition/eligible-for-vaccine: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine'): The Implementation Guide contains no examples for this extension
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/StructureDefinition-last-dose.json ==
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-last-dose.json ==
 INFORMATION: StructureDefinition/last-dose: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose'): The Implementation Guide contains no examples for this extension
-== /__w/commcare-vaccine-ig/commcare-vaccine-ig/fsh-generated/resources/ValueSet-area-type-vs.json ==
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/ValueSet-area-type-vs.json ==
 INFORMATION: ValueSet/area-type-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet

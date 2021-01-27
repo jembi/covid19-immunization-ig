@@ -3,19 +3,19 @@
   "id": "area-type-vs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-AreaType.html\"><code>https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-AreaType.html\"><code>https://jembi.github.io/covid19-immunization-ig//CodeSystem/AreaType</code></a></li></ul></div>"
   },
-  "url": "https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs",
+  "url": "https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs",
   "version": "0.1.0",
   "name": "AreaType",
   "title": "Area Type",
   "status": "active",
-  "date": "2021-01-25T08:16:03+00:00",
+  "date": "2021-01-27T09:56:19+00:00",
   "description": "A ValueSet for the values `rural` and `urban`",
   "compose": {
     "include": [
       {
-        "system": "https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType"
+        "system": "https://jembi.github.io/covid19-immunization-ig//CodeSystem/AreaType"
       }
     ]
   }

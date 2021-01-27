@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f5fafa97-cf6e-42f8-9b73-7df82d73a105"/>
+  <id value="48f50a6c-61b2-41c7-9d65-0bd7a1b654a2"/>
   <meta>
-    <lastUpdated value="2021-01-25T08:16:03.590+00:00"/>
+    <lastUpdated value="2021-01-27T09:56:19.763+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs"/>
+    <fullUrl value="https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs"/>
     <resource>
       <ValueSet>
         <id value="area-type-vs"/>
@@ -20,7 +20,7 @@
             </p>
             <p>All codes from system 
               <a href="CodeSystem-AreaType.html">
-                <code>https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType</code>
+                <code>https://jembi.github.io/covid19-immunization-ig//CodeSystem/AreaType</code>
               </a>
             </p>
             <table class="codes">
@@ -37,7 +37,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---jembi.github.io-commcare-vaccine-ig--CodeSystem-AreaType-rural"> </a>
+                  <a name="https---jembi.github.io-covid19-immunization-ig--CodeSystem-AreaType-rural"> </a>
                   <a href="CodeSystem-AreaType.html#AreaType-rural">rural</a>
                 </td>
                 <td>Rural</td>
@@ -45,7 +45,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---jembi.github.io-commcare-vaccine-ig--CodeSystem-AreaType-urban"> </a>
+                  <a name="https---jembi.github.io-covid19-immunization-ig--CodeSystem-AreaType-urban"> </a>
                   <a href="CodeSystem-AreaType.html#AreaType-urban">urban</a>
                 </td>
                 <td>Urban</td>
@@ -54,16 +54,16 @@
             </table>
           </div>
         </text>
-        <url value="https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs"/>
+        <url value="https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs"/>
         <version value="0.1.0"/>
         <name value="AreaType"/>
         <title value="Area Type"/>
         <status value="active"/>
-        <date value="2021-01-25T08:16:03+00:00"/>
+        <date value="2021-01-27T09:56:19+00:00"/>
         <description value="A ValueSet for the values `rural` and `urban`"/>
         <expansion>
-          <identifier value="urn:uuid:b75035df-bab2-46f1-a525-ee6e904c2317"/>
-          <timestamp value="2021-01-25T08:16:16+00:00"/>
+          <identifier value="urn:uuid:82f65fd6-fbb4-43c3-8797-ae7e4a469ab2"/>
+          <timestamp value="2021-01-27T09:56:30+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -71,15 +71,15 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType|0.1.0"/>
+            <valueUri value="https://jembi.github.io/covid19-immunization-ig//CodeSystem/AreaType|0.1.0"/>
           </parameter>
           <contains>
-            <system value="https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType"/>
+            <system value="https://jembi.github.io/covid19-immunization-ig//CodeSystem/AreaType"/>
             <code value="rural"/>
             <display value="Rural"/>
           </contains>
           <contains>
-            <system value="https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType"/>
+            <system value="https://jembi.github.io/covid19-immunization-ig//CodeSystem/AreaType"/>
             <code value="urban"/>
             <display value="Urban"/>
           </contains>

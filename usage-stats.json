@@ -1,10 +1,10 @@
 {
-  "package": "commcare.vaccine",
+  "package": "covid19.immunization",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type",
+      "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/area-type",
       "title": "Patient Area Type",
       "types": [
         "CodeableConcept",
@@ -12,21 +12,21 @@
       ]
     },
     {
-      "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given",
+      "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/dose-given",
       "title": "Dose Given",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine",
+      "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/eligible-for-vaccine",
       "title": "Eligible For Vaccine",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose",
+      "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/last-dose",
       "title": "Last Dose",
       "types": [
         "boolean"
@@ -34,16 +34,16 @@
     }
   ],
   "profiles": {
-    "Patient": [
-      {
-        "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-client-data",
-        "title": "Commcare Vaccine Patient"
-      }
-    ],
     "Immunization": [
       {
-        "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-vaccine-immunization",
-        "title": "Commcare Vaccine Immunization"
+        "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-immunization",
+        "title": "Covid19 Immunization"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-patient",
+        "title": "COVID-19 Immunization Patient"
       }
     ]
   },
@@ -84,16 +84,16 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type": [
+    "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/area-type": [
       "Patient"
     ],
-    "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given": [
+    "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/dose-given": [
       "Immunization"
     ],
-    "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine": [
+    "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/eligible-for-vaccine": [
       "Patient"
     ],
-    "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose": [
+    "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/last-dose": [
       "Immunization"
     ]
   }

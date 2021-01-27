@@ -2,63 +2,63 @@
   {
     "id": "AreaType",
     "type": "CodeSystem",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//CodeSystem/AreaType",
+    "url": "https://jembi.github.io/covid19-immunization-ig//CodeSystem/AreaType",
     "version": "0.1.0",
     "name": "AreaType"
   },
   {
-    "id": "commcare.vaccine",
+    "id": "covid19.immunization",
     "type": "ImplementationGuide",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//ImplementationGuide/commcare.vaccine",
+    "url": "https://jembi.github.io/covid19-immunization-ig//ImplementationGuide/covid19.immunization",
     "version": "0.1.0",
-    "name": "commcarevaccineig"
+    "name": "covid19immunizationig"
   },
   {
     "id": "area-type",
     "type": "StructureDefinition",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/area-type",
+    "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/area-type",
     "version": "0.1.0",
     "name": "PatientAreaType"
   },
   {
-    "id": "commcare-client-data",
+    "id": "covid19-immunization",
     "type": "StructureDefinition",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-client-data",
+    "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-immunization",
     "version": "0.1.0",
-    "name": "CommcareVaccinePatient"
+    "name": "Covid19Immunization"
   },
   {
-    "id": "commcare-vaccine-immunization",
+    "id": "covid19-patient",
     "type": "StructureDefinition",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/commcare-vaccine-immunization",
+    "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-patient",
     "version": "0.1.0",
-    "name": "CommcareVaccineImmunization"
+    "name": "Covid19Patient"
   },
   {
     "id": "dose-given",
     "type": "StructureDefinition",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/dose-given",
+    "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/dose-given",
     "version": "0.1.0",
     "name": "DoseGiven"
   },
   {
     "id": "eligible-for-vaccine",
     "type": "StructureDefinition",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/eligible-for-vaccine",
+    "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/eligible-for-vaccine",
     "version": "0.1.0",
     "name": "VaccineEligibility"
   },
   {
     "id": "last-dose",
     "type": "StructureDefinition",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//StructureDefinition/last-dose",
+    "url": "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/last-dose",
     "version": "0.1.0",
     "name": "LastDose"
   },
   {
     "id": "area-type-vs",
     "type": "ValueSet",
-    "url": "https://jembi.github.io/commcare-vaccine-ig//ValueSet/area-type-vs",
+    "url": "https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs",
     "version": "0.1.0",
     "name": "AreaType"
   }

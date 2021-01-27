@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="Covid19PatientExample"/>
+  <meta>
+    <profile value="https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-patient"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Eligible For Vaccine</b>: true</p><p><b>Patient Area Type</b>: <span title="Codes: ">urban</span></p><p><b>identifier</b>: id: 12345</p><p><b>name</b>: John Doe </p><p><b>telecom</b>: ph: (+27) 00 123 4567(WORK)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1981-05-21</p></div>
+  </text>
+  <extension url="https://jembi.github.io/covid19-immunization-ig//StructureDefinition/eligible-for-vaccine">
+    <valueBoolean value="true"/>
+  </extension>
+  <extension url="https://jembi.github.io/covid19-immunization-ig//StructureDefinition/area-type">
+    <valueCodeableConcept>
+      <coding>
+        <code value="urban"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <system value="https://jembi.github.io/covid19-immunization-ig/patient-id"/>
+    <value value="12345"/>
+  </identifier>
+  <name>
+    <family value="Doe"/>
+    <given value="John"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(+27) 00 123 4567"/>
+    <use value="work"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1981-05-21"/>
+</Patient>

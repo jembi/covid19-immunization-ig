@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://jembi.github.io/covid19-immunization-ig/Immunization/Covid19ImmunizationExample> a fhir:Immunization;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Covid19ImmunizationExample"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-immunization";
+       fhir:index 0;
+       fhir:link <https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-immunization>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Last Dose</b>: false</p><p><b>Dose Given</b>: true</p><p><b>status</b>: completed</p><p><b>vaccineCode</b>: <span title=\"Codes: {http://snomed.info/sct 840534001}\">COVID-19 vaccination</span></p><p><b>patient</b>: <a href=\"Covid19Patient/example\">Covid19Patient/example</a></p><p><b>occurrence</b>: Jan 26, 2021, 10:26:54 AM</p><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td>-</td><td><b>DoseNumber[x]</b></td></tr><tr><td>*</td><td>100</td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/last-dose" ];
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://jembi.github.io/covid19-immunization-ig//StructureDefinition/dose-given" ];
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ];
+  fhir:Immunization.status [ fhir:value "completed"];
+  fhir:Immunization.vaccineCode [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:840534001;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "840534001" ];
+       fhir:Coding.display [ fhir:value "COVID-19 vaccination" ]
+     ]
+  ];
+  fhir:Immunization.patient [
+     fhir:link <https://jembi.github.io/covid19-immunization-ig/Covid19Patient/example>;
+     fhir:Reference.reference [ fhir:value "Covid19Patient/example" ]
+  ];
+  fhir:Immunization.occurrenceDateTime [ fhir:value "2021-01-26T10:26:54.421Z"^^xsd:dateTime];
+  fhir:Immunization.protocolApplied [
+     fhir:index 0;
+     fhir:Immunization.protocolApplied.doseNumberPositiveInt [ fhir:value "100"^^xsd:positiveInteger ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://jembi.github.io/covid19-immunization-ig/Immunization/Covid19ImmunizationExample.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
