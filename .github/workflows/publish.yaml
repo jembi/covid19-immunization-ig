@@ -1,0 +1,29 @@
+name: Publish to Github Pages
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    container:
+      image: hl7fhir/ig-publisher-base
+  
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build Implementation Guide
+        run: |
+          ./_updatePublisher.sh -y && ./_genonce.sh
+      
+      - name: Deploy to Github Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: output
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
