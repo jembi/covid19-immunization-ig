@@ -1,7 +1,7 @@
 Instance: Covid19ImmunizationQuestionnaire
 InstanceOf: Questionnaire
-Description: "TODO"
-Title: ""
+Description: "COVID-19 Immunization Questionnaire"
+Title: "COVID-19 Immunization Questionnaire"
 Usage: #definition
 
 * name = "Covid19ImmunizationQuestionnaire"
@@ -48,7 +48,7 @@ Usage: #definition
 
 * item[5].item[1].linkId = "dose_number"
 * item[5].item[1].text = "Defines if this is the first vs second dose, for example."
-* item[5].item[1].type = #choice
+* item[5].item[1].type = #integer
 
 * item[5].item[2].linkId = "last_dose"
 * item[5].item[2].text = "Is the last dose in the course"
