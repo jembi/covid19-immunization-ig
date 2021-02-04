@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="covid19immunizationig"/>
   <status value="draft"/>
-  <date value="2021-01-27T09:56:19+00:00"/>
+  <date value="2021-02-04T07:17:56+00:00"/>
   <packageId value="covid19.immunization"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -264,6 +264,28 @@
       <name value="COVID-19 Immunization example"/>
       <description value="COVID-19 Immunization example"/>
       <exampleCanonical value="https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-immunization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Covid19ImmunizationQuestionnaire"/>
+      </reference>
+      <name value="COVID-19 Immunization Questionnaire"/>
+      <description value="COVID-19 Immunization Questionnaire"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse"/>
+      </reference>
+      <name value="COVID-19 Immunization QuestionnaireResponse"/>
+      <description value="COVID-19 Immunization QuestionnaireResponse"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

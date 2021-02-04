@@ -61,5 +61,12 @@
     "url": "https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs",
     "version": "0.1.0",
     "name": "AreaType"
+  },
+  {
+    "id": "Covid19ImmunizationQuestionnaire",
+    "type": "Questionnaire",
+    "url": "https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire",
+    "version": "0.1.0",
+    "name": "Covid19ImmunizationQuestionnaire"
   }
 ]

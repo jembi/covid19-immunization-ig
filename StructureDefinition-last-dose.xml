@@ -14,7 +14,7 @@
   <name value="LastDose"/>
   <title value="Last Dose"/>
   <status value="active"/>
-  <date value="2021-01-27T09:56:19+00:00"/>
+  <date value="2021-02-04T07:17:56+00:00"/>
   <description value="Defines if this is the last does of the course"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

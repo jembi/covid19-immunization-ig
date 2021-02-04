@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "covid19immunizationig"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-01-27T09:56:19+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-02-04T07:17:56+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "covid19.immunization"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -384,6 +384,34 @@
        ]
      ], [
        fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Covid19ImmunizationQuestionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "COVID-19 Immunization Questionnaire" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "COVID-19 Immunization Questionnaire" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://jembi.github.io/covid19-immunization-ig/QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse>;
+         fhir:Reference.reference [ fhir:value "QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "COVID-19 Immunization QuestionnaireResponse" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "COVID-19 Immunization QuestionnaireResponse" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

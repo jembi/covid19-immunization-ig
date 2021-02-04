@@ -1,15 +1,17 @@
 ﻿covid19immunizationig : Validation Results
 =========================================
 
-err = 5, warn = 2, info = 0
+err = 10, warn = 5, info = 1
 IG Publisher Version: 1.1.59
-Generated Wed Jan 27 09:56:36 UTC 2021. FHIR version 4.0.1 for covid19.immunization#0.1.0 (canonical = https://jembi.github.io/covid19-immunization-ig/)
+Generated Thu Feb 04 07:18:15 UTC 2021. FHIR version 4.0.1 for covid19.immunization#0.1.0 (canonical = https://jembi.github.io/covid19-immunization-ig/)
 
- Build Errors : 68 / 0 / 0
+ Build Errors : 78 / 0 / 0
  /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/CodeSystem-AreaType : 0 / 0 / 1
  /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/Immunization-Covid19ImmunizationExample : 3 / 0 / 1
  /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/ImplementationGuide-covid19.immunization : 1 / 1 / 1
  /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/Patient-Covid19PatientExample : 1 / 1 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/Questionnaire-Covid19ImmunizationQuestionnaire : 0 / 0 / 1
+ /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/QuestionnaireResponse-Covid19ImmunizationQuestionnaireResponse : 5 / 3 / 3
  /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-area-type : 0 / 0 / 1
  /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-covid19-immunization : 0 / 0 / 1
  /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-covid19-patient : 0 / 0 / 1
@@ -35,6 +37,16 @@ ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid19PatientExample.json.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid19PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Patient-Covid19PatientExample.xml.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Questionnaire-Covid19ImmunizationQuestionnaire.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Questionnaire-Covid19ImmunizationQuestionnaire.html#/html/body/div/div/div/p/a at Line 198, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Questionnaire-Covid19ImmunizationQuestionnaire.json.html#/html/body/div/div/div/p/a at Line 270, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Questionnaire-Covid19ImmunizationQuestionnaire.ttl.html#/html/body/div/div/div/p/a at Line 278, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/Questionnaire-Covid19ImmunizationQuestionnaire.xml.html#/html/body/div/div/div/p/a at Line 279, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/QuestionnaireResponse-Covid19ImmunizationQuestionnaireResponse.change.history.html#/html/body/div/div/div/p/a at Line 197, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/QuestionnaireResponse-Covid19ImmunizationQuestionnaireResponse.html#/html/body/div/div/div/p/a at Line 184, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/QuestionnaireResponse-Covid19ImmunizationQuestionnaireResponse.json.html#/html/body/div/div/div/p/a at Line 311, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/QuestionnaireResponse-Covid19ImmunizationQuestionnaireResponse.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/QuestionnaireResponse-Covid19ImmunizationQuestionnaireResponse.xml.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type-definitions.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type-mappings.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/StructureDefinition-area-type.html#/html/body/div/div/div/p/a at Line 492, column 28: The link '' for "" cannot be resolved
@@ -84,7 +96,7 @@ ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area-type-vs.json.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area-type-vs.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/ValueSet-area-type-vs.xml.html#/html/body/div/div/div/p/a at Line 206, column 28: The link '' for "" cannot be resolved
-ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/artifacts.html#/html/body/div/div/div/p/a at Line 309, column 28: The link '' for "" cannot be resolved
+ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/artifacts.html#/html/body/div/div/div/p/a at Line 357, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/index.html#/html/body/div/div/div/p/a at Line 151, column 28: The link '' for "" cannot be resolved
 ERROR: /__w/covid19-immunization-ig/covid19-immunization-ig/output/toc.html#/html/body/div/div/div/p/a at Line 133, column 28: The link '' for "" cannot be resolved
 == /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/CodeSystem-AreaType.json ==
@@ -102,6 +114,19 @@ WARNING: ImplementationGuide/covid19.immunization: ImplementationGuide: ig-0: Na
 INFORMATION: Patient/Covid19PatientExample: Patient: Validate resource against profile https://jembi.github.io/covid19-immunization-ig//StructureDefinition/covid19-patient
 ERROR: Patient/Covid19PatientExample: Patient.extension[1].value.ofType(CodeableConcept): None of the codes provided are in the value set https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs (https://jembi.github.io/covid19-immunization-ig//ValueSet/area-type-vs), and a code from this value set is required) (codes = null#urban)
 WARNING: Patient/Covid19PatientExample: Patient.extension[1].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/Questionnaire-Covid19ImmunizationQuestionnaire.json ==
+INFORMATION: Questionnaire/Covid19ImmunizationQuestionnaire: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
+== /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/QuestionnaireResponse-Covid19ImmunizationQuestionnaireResponse.json ==
+INFORMATION: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse: Validate resource against profile http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse
+WARNING: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+WARNING: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse.item[5].answer[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+ERROR: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse: Structural Error: item with linkid vaccine_type is in the wrong place
+INFORMATION: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse.item[0].answer[0]: Cannot validate options because no option or options are provided
+ERROR: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse: Structural Error: item with linkid dose_number is in the wrong place
+ERROR: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse: Structural Error: item with linkid last_dose is in the wrong place
+ERROR: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse: Structural Error: item with linkid dose_given is in the wrong place
+ERROR: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse: LinkId 'dose_updated_on' not found in questionnaire
+WARNING: QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse: QuestionnaireResponse.item[0].answer[0]: ValueSet #AreaType not found by validator
 == /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-area-type.json ==
 INFORMATION: StructureDefinition/area-type: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /__w/covid19-immunization-ig/covid19-immunization-ig/fsh-generated/resources/StructureDefinition-covid19-immunization.json ==

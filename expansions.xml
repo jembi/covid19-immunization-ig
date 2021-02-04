@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="48f50a6c-61b2-41c7-9d65-0bd7a1b654a2"/>
+  <id value="3145e8d6-6862-4d4a-ac31-575206397a37"/>
   <meta>
-    <lastUpdated value="2021-01-27T09:56:19.763+00:00"/>
+    <lastUpdated value="2021-02-04T07:17:56.382+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -59,11 +59,11 @@
         <name value="AreaType"/>
         <title value="Area Type"/>
         <status value="active"/>
-        <date value="2021-01-27T09:56:19+00:00"/>
+        <date value="2021-02-04T07:17:56+00:00"/>
         <description value="A ValueSet for the values `rural` and `urban`"/>
         <expansion>
-          <identifier value="urn:uuid:82f65fd6-fbb4-43c3-8797-ae7e4a469ab2"/>
-          <timestamp value="2021-01-27T09:56:30+00:00"/>
+          <identifier value="urn:uuid:a32dc780-1525-4e53-b08f-8bad9f5648cf"/>
+          <timestamp value="2021-02-04T07:18:09+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

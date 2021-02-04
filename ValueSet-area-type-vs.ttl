@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "AreaType"];
   fhir:ValueSet.title [ fhir:value "Area Type"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-01-27T09:56:19+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-02-04T07:17:56+00:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "A ValueSet for the values `rural` and `urban`"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "Covid19Immunization"];
   fhir:StructureDefinition.title [ fhir:value "Covid19 Immunization"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-01-27T09:56:19+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-02-04T07:17:56+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Defines an immunization profile for the COVID-19"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

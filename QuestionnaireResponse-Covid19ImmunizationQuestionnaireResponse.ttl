@@ -1,0 +1,133 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://jembi.github.io/covid19-immunization-ig/QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse> a fhir:QuestionnaireResponse;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Covid19ImmunizationQuestionnaireResponse"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire\">https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire</a></p><p><b>status</b>: completed</p><blockquote><p><b>item</b></p><p><b>linkId</b>: client_id</p><p><b>text</b>: Unique ID of client</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>12345</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: full_name</p><p><b>text</b>: Client full name</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>John Doe</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: area_urban_rural</p><p><b>text</b>: Does the client live in an urban or rural setting?</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{null urban}\">urban</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: phone_number</p><p><b>text</b>: Phone number for contacting client</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>(+27) 00 123 4567</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: dob</p><p><b>text</b>: Client date of birth</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>1981-05-21</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: gender</p><p><b>text</b>: Client gender</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{null male}\">male</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: eligible</p><p><b>text</b>: Is the client eligible for the vaccine?</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>true</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: vaccine_type</p><p><b>text</b>: Type of vaccine</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{http://snomed.info/sct 840534001}\">2019-nCoV vaccination</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: dose_number</p><p><b>text</b>: Dose number</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>1</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: last_dose</p><p><b>text</b>: Is this the last dose in the course?</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>false</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: dose_given</p><p><b>text</b>: Has the client received the dose?</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>true</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: dose_updated_on</p><p><b>text</b>: Date administered</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>Jan 26, 2021, 10:26:54 AM</td></tr></table></blockquote></div>"
+  ];
+  fhir:QuestionnaireResponse.questionnaire [
+     fhir:value "https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire";
+     fhir:link <https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire>
+  ];
+  fhir:QuestionnaireResponse.status [ fhir:value "completed"];
+  fhir:QuestionnaireResponse.item [
+     fhir:index 0;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "client_id" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Unique ID of client" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "12345" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "full_name" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Client full name" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "John Doe" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "area_urban_rural" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Does the client live in an urban or rural setting?" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueCoding [
+         fhir:Coding.code [ fhir:value "urban" ]
+       ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "phone_number" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Phone number for contacting client" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueString [ fhir:value "(+27) 00 123 4567" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "dob" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Client date of birth" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueDate [ fhir:value "1981-05-21"^^xsd:date ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "gender" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Client gender" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueCoding [
+         fhir:Coding.code [ fhir:value "male" ]
+       ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "eligible" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Is the client eligible for the vaccine?" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "vaccine_type" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Type of vaccine" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueCoding [
+         a sct:840534001;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+         fhir:Coding.code [ fhir:value "840534001" ]
+       ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "dose_number" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Dose number" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueInteger [ fhir:value "1"^^xsd:integer ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "last_dose" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Is this the last dose in the course?" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "dose_given" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Has the client received the dose?" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index 11;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "dose_updated_on" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Date administered" ];
+     fhir:QuestionnaireResponse.item.answer [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.answer.valueDateTime [ fhir:value "2021-01-26T10:26:54.421Z"^^xsd:dateTime ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://jembi.github.io/covid19-immunization-ig/QuestionnaireResponse/Covid19ImmunizationQuestionnaireResponse.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

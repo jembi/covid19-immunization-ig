@@ -1,0 +1,127 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "Covid19ImmunizationQuestionnaireResponse",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire\">https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire</a></p><p><b>status</b>: completed</p><blockquote><p><b>item</b></p><p><b>linkId</b>: client_id</p><p><b>text</b>: Unique ID of client</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>12345</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: full_name</p><p><b>text</b>: Client full name</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>John Doe</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: area_urban_rural</p><p><b>text</b>: Does the client live in an urban or rural setting?</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{null urban}\">urban</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: phone_number</p><p><b>text</b>: Phone number for contacting client</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>(+27) 00 123 4567</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: dob</p><p><b>text</b>: Client date of birth</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>1981-05-21</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: gender</p><p><b>text</b>: Client gender</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{null male}\">male</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: eligible</p><p><b>text</b>: Is the client eligible for the vaccine?</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>true</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: vaccine_type</p><p><b>text</b>: Type of vaccine</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"{http://snomed.info/sct 840534001}\">2019-nCoV vaccination</span></td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: dose_number</p><p><b>text</b>: Dose number</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>1</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: last_dose</p><p><b>text</b>: Is this the last dose in the course?</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>false</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: dose_given</p><p><b>text</b>: Has the client received the dose?</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>true</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>linkId</b>: dose_updated_on</p><p><b>text</b>: Date administered</p><h3>Answers</h3><table class=\"grid\"><tr><td>-</td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>Jan 26, 2021, 10:26:54 AM</td></tr></table></blockquote></div>"
+  },
+  "questionnaire": "https://jembi.github.io/covid19-immunization-ig/Questionnaire/Covid19ImmunizationQuestionnaire",
+  "status": "completed",
+  "item": [
+    {
+      "linkId": "client_id",
+      "text": "Unique ID of client",
+      "answer": [
+        {
+          "valueString": "12345"
+        }
+      ]
+    },
+    {
+      "linkId": "full_name",
+      "text": "Client full name",
+      "answer": [
+        {
+          "valueString": "John Doe"
+        }
+      ]
+    },
+    {
+      "linkId": "area_urban_rural",
+      "text": "Does the client live in an urban or rural setting?",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "urban"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "phone_number",
+      "text": "Phone number for contacting client",
+      "answer": [
+        {
+          "valueString": "(+27) 00 123 4567"
+        }
+      ]
+    },
+    {
+      "linkId": "dob",
+      "text": "Client date of birth",
+      "answer": [
+        {
+          "valueDate": "1981-05-21"
+        }
+      ]
+    },
+    {
+      "linkId": "gender",
+      "text": "Client gender",
+      "answer": [
+        {
+          "valueCoding": {
+            "code": "male"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "eligible",
+      "text": "Is the client eligible for the vaccine?",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "vaccine_type",
+      "text": "Type of vaccine",
+      "answer": [
+        {
+          "valueCoding": {
+            "system": "http://snomed.info/sct",
+            "code": "840534001"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "dose_number",
+      "text": "Dose number",
+      "answer": [
+        {
+          "valueInteger": 1
+        }
+      ]
+    },
+    {
+      "linkId": "last_dose",
+      "text": "Is this the last dose in the course?",
+      "answer": [
+        {
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "linkId": "dose_given",
+      "text": "Has the client received the dose?",
+      "answer": [
+        {
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "linkId": "dose_updated_on",
+      "text": "Date administered",
+      "answer": [
+        {
+          "valueDateTime": "2021-01-26T10:26:54.421Z"
+        }
+      ]
+    }
+  ]
+}

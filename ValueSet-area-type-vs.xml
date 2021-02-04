@@ -10,7 +10,7 @@
   <name value="AreaType"/>
   <title value="Area Type"/>
   <status value="active"/>
-  <date value="2021-01-27T09:56:19+00:00"/>
+  <date value="2021-02-04T07:17:56+00:00"/>
   <description value="A ValueSet for the values `rural` and `urban`"/>
   <compose>
     <include>

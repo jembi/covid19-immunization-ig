@@ -20,7 +20,7 @@
   "name": "Covid19Patient",
   "title": "COVID-19 Immunization Patient",
   "status": "active",
-  "date": "2021-01-27T09:56:19+00:00",
+  "date": "2021-02-04T07:17:56+00:00",
   "description": "Defines a patient profile for the COVID-19 Immunization",
   "fhirVersion": "4.0.1",
   "mapping": [

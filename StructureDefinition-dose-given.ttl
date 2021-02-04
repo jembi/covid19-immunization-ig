@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "DoseGiven"];
   fhir:StructureDefinition.title [ fhir:value "Dose Given"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-01-27T09:56:19+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-02-04T07:17:56+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Defines if the a dose has been given"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
